@@ -62,7 +62,7 @@ export function makeTriangle(size) {
  * @returns `0` if `letter is not a string
  */
 export function countLetter(words, letter) {
-  if (typeof letter !== "string" || words.length === 0) {
+  if (typeof letter !== "string") {
     return 0;
   }
 
