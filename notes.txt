@@ -1,0 +1,5 @@
+in vitest, we use ES Modules to export and import
+
+to run a specific test file, run npm test -- path/to/your/testfile.test.js
+
+it's not necessary to name the test folder __test__ in vitest, as vitest looks for test files that end in .test.js, but it's a good convention
